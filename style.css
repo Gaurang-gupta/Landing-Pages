@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.mid{
+    max-width: 50%;
+    margin: auto;
+}
+
+.medium{
+    font-size: 2.5rem;
+}
+
+.title{
+    font-size: 3rem;
+    padding: 19px 0px;
+}
+
+.body{
+    max-width: 90%;
+    margin: auto;
+}
+
+.last{
+    max-width: 95%;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+form{
+    padding-right: 20%;
+}
+
+.one{
+    max-width: 50%;
+}
+
+.border{
+    border-right: 1px solid rgb(173, 123, 206);
+}
+
+#trust{
+    padding-left: 2%;
+}
+
+.container{
+    padding-bottom: 20px;
+    font-size: 1rem;
+}
+
+.label{
+    padding-right: 2rem;
+}
+
+.input{
+    border: 2px solid white;
+    border-radius: 9px;
+    font-size: 1.5rem;
+}
+
+.btn{
+    background-color: rgb(153, 46, 224) ;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.background{
+    background-color: rgb(153, 46, 224);
+    color: white;
+}
+
+.second-section{
+    max-width: 80%;
+    margin: auto;
+    background-color: white;
+}
+
+.div{
+    display: flex;
+    align-items: center;
+}
+
+.div-item{
+    padding-bottom: 10px;
+    margin: 20px;
+}
+
+.heading{
+    color:rgb(162, 33, 248);
+}
+
+.footer{
+    display: flex;
+    height:400px;
+    justify-content: center;
+    background-color: rgb(153, 46, 224);
+    align-items: center;
+    color: white;
+}
+
+.footer-reverse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.footer-heading{
+    display: inline;
+}
+
+#copy{
+    display: inline;
+}
+
+.footer-para{
+    max-width: 90%;
+    margin: auto;
+}
+
+.text-muted{
+    color: rgb(151, 151, 151);
+}
+
+.end{
+    height: 20px;
+    background-color: rgb(153, 46, 224);
+}
+
+.content{
+    margin: 10%;
+}
+
+@media(max-width: 576px){
+    .div{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 410px){
+    .label{
+        display: block;
+    }
+}
+
+@media(max-width: 810px){
+    .footer-reverse{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 950px){
+    .last{
+        flex-direction: column;
+    }
+    .one{
+        max-width: 100%;
+    }
+    .border{
+        border-bottom: 1px solid rgb(173, 123, 206);
+        border-right: 0;
+    }
+}
